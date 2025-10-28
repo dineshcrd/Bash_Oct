@@ -30,7 +30,7 @@ echo -e "\e[35m This is Magenta Color Text \e[0m"
 echo -e "\e[36m This is Cyan Color Text \e[0m"
 
 # printing colored text with background color
-echo -e "\e[31;43m This is Red Text with Yellow Background \e[0m"
-echo -e "\e[32;44m This is Green Text with Blue Background \e[0m"
-echo -e "\e[33;45m This is Yellow Text with Magenta Background \e[0m"
+echo  "\e[31;43m This is Red Text with Yellow Background \e[0m"
+echo  "\e[32;44m This is Green Text with Blue Background \e[0m"
+echo  "\e[33;45m This is Yellow Text with Magenta Background \e[0m"
 echo -e "\e[34;46m This is
