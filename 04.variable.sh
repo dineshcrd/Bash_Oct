@@ -13,5 +13,7 @@
 #how to print this? Special character $ is used to access the value of the variable
 # echo $variable_name
 
-name="DevSecOps"
-echo "Welcome to $name"
+a=100
+b=200
+echo "Value of a is : $a"
+echo "Value of b is : $b"
