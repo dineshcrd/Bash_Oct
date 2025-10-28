@@ -3,12 +3,20 @@
 # outputs system health information including hostname, uptime, disk usage, memory usage, and CPU load
 #all outputs are clearly labeled for easy understanding
 # with cold formatting for better readability
+# add symbols for better visual separation
 
-echo "=========================="
+# Define colors
+RED="\e[31m"
+GREEN="\e[32m"
+YELLOW="\e[33m"         
+RESET="\e[0m" 
+
+echo "\n${CYAN}=========================="
 echo "System Health Check Report"
-echo "=========================="
+echo "==========================${RESET}\n"
 
 # Hostname
+echi -e "Hostname: ${YELLOW}$(hostname)${RESET}"
 echo "Hostname: $(hostname)"
 echo "--------------------------"
 
