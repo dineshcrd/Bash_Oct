@@ -6,4 +6,4 @@ SOURCE_DIRS="/home"
 # backup destination directory
 BACKUP_DIR="/tmp/backup"
 # create backup filename with date
-BACKUP_FILE="backup_$(date +%Y%m%d_%H%M%S"
+BACKUP_FILE="backup_$(date +%Y%m%d_%H%M%S).tar.gz"
