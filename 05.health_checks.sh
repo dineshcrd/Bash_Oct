@@ -11,9 +11,9 @@ GREEN="\e[32m"
 YELLOW="\e[33m"         
 RESET="\e[0m" 
 
-echo "\n${CYAN}=========================="
-echo "System Health Check Report"
-echo "==========================${RESET}"
+echo -e "\n${GREEN}=========================="
+echo -e "System Health Check Report"
+echo -e "==========================${RESET}"
 
 # Hostname
 echo -e "Hostname: ${YELLOW}$(hostname)${RESET}"
