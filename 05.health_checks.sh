@@ -36,7 +36,7 @@ echo "--------------------------"
 # CPU Load
 # add this CYAN color for CPU Load section
 
-echo -e "${CYAN}CPU Load:${RESET}"
+echo -e "${RED}CPU Load:${RESET}"
 top -bn1 | grep "load average"
 
 echo "--------------------------"
