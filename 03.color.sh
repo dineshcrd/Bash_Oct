@@ -23,3 +23,8 @@
 # echo -e "\e[<foreground_color_code>;<background_color_code>m Your Text \e[0m"
 
 echo -e "\e[31m This is Red Color Text \e[0m"
+echo -e "\e[32m This is Green Color Text \e[0m"
+echo -e "\e[33m This is Yellow Color Text \e[0m"
+echo -e "\e[34m This is Blue Color Text \e[0m"     
+echo -e "\e[35m This is Magenta Color Text \e[0m"
+echo -e "\e[36m This is Cyan Color Text \e[0m"
