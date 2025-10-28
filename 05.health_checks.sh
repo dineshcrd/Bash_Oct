@@ -17,7 +17,6 @@ echo -e "==========================${RESET}"
 
 # Hostname
 echo -e "Hostname: ${YELLOW}$(hostname)${RESET}"
-echo "Hostname: $(hostname)"
 echo "--------------------------"
 
 # Uptime
