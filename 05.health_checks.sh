@@ -1,5 +1,9 @@
 #!/bin/bash
 #Linux Health Check Script
+# outputs system health information including hostname, uptime, disk usage, memory usage, and CPU load
+#all outputs are clearly labeled for easy understanding
+# with cold formatting for better readability
+
 echo "=========================="
 echo "System Health Check Report"
 echo "=========================="
