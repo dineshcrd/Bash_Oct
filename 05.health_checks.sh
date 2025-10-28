@@ -25,3 +25,6 @@ echo "--------------------------"
 # CPU Load
 echo "CPU Load:"
 top -bn1 | grep "load average"
+
+echo "--------------------------"
+echo "Health Check Completed"
