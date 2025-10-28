@@ -13,10 +13,10 @@ RESET="\e[0m"
 
 echo "\n${CYAN}=========================="
 echo "System Health Check Report"
-echo "==========================${RESET}\n"
+echo "==========================${RESET}"
 
 # Hostname
-echi -e "Hostname: ${YELLOW}$(hostname)${RESET}"
+echo -e "Hostname: ${YELLOW}$(hostname)${RESET}"
 echo "Hostname: $(hostname)"
 echo "--------------------------"
 
