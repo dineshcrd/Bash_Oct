@@ -2,7 +2,7 @@
 
 # backup script to backup important files and directories
 # source directories to backup
-SOURCE_DIRS="/home"
+SOURCE_DIRS="/home/crdinesh/Bash_Oct"
 # backup destination directory
 BACKUP_DIR="/tmp/backup"
 # create backup filename with date
