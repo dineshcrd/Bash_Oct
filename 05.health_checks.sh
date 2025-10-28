@@ -28,3 +28,4 @@ top -bn1 | grep "load average"
 
 echo "--------------------------"
 echo "Health Check Completed"
+echo "=========================="
