@@ -18,4 +18,4 @@ try next
 
 echo -e "hai \n\tAAAAA\n\tBBBBB\n\tCCCCCC"
 
-echo -e "hai \n\t AAAAA \t BBBBB \t CCCCCC"
+echo -e "hai \t AAAAA \t BBBBB \t CCCCCC"
