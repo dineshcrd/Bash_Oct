@@ -12,7 +12,7 @@ echo -e "System Health Check Report"
 echo -e "==========================${RESET}"
 
 #hostname
-echo -e "Hostname: ${YESLLOW}$(hostname)${RESET}"
+echo -e "Hostname: ${YELLOW}$(hostname)${RESET}"
 echo "=========================="
 
 #uptime 
