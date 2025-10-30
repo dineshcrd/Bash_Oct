@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo "hello world"
+echo hi
+echo hello
+echo how are you?   
