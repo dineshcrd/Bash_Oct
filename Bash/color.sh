@@ -24,3 +24,10 @@ echo -e "\e[33m This is yellow text \e[0m"
 echo -e "\e[34m This is blue text \e[0m"    
 echo -e "\e[35m This is magenta text \e[0m"
 echo -e "\e[36m This is cyan text \e[0m"
+
+#print the colored text with background color
+echo -e "\e[41m This is text with red background \e[0m"
+echo -e "\e[42m This is text with green background \e[0m"
+echo -e "\e[43m This is text with yellow background \e[0m"
+echo -e "\e[44m This is text with blue background \e[0m"    
+echo -e "\e[45m This is text with magenta background \e[    
