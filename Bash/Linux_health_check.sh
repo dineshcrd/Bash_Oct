@@ -1,11 +1,11 @@
 #!/bin/bash
 #Linux health check script
-echo "=========================="
-echo "System Health Check Report"
-echo "=========================="
+echo -e "\n${GREEN}=========================="
+echo -e "System Health Check Report"
+echo -e "==========================${RESET}"
 
 #hostname
-echo "Hostname: $(hostname)"
+echo -e "Hostname: ${YESLLOW}$(hostname)${RESET}"
 echo "=========================="
 
 #uptime 
